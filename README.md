@@ -1,12 +1,14 @@
 Hello there..!
 
+**Project Name** : TODO APPLICATION
+
 I built this Simple To-Do List Application using React-native.
 
 Developed a fully functional to-do list application that allows users to manage their tasks effectively. The app is intuitive and user-friendly. 
 
  
 
-Key Features : 
+**Key Features** : 
 
 Due Date: Each task can have a due date. 
 
@@ -19,6 +21,8 @@ Task Status: Can Mark tasks as New, In Progress, or Completed.
 Title and Description: Each task must have a title and a detailed description. 
 
 Local Storage: The app uses local storage to save tasks i.e I used SQLLite
+
+**Description** :
 
 1) Basically, when app is opened we can see three divisions. They are:
    New 
