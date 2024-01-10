@@ -27,11 +27,10 @@ const Addnotes=({notesList,setNotesList,getNotes})=>{
             return;
         }
         db.transaction(txn=>{
-            const query=`INSERT INTO notes(title,description,priority,viewed) VALUES(?,?,?,?)`;
+            const query=`INSERT INTO notes(title,description,priority,viewed,completed) VALUES(?,?,?,?,?)`;
             console.log(query)
-            txn.executeSql(query,[title,description,selectedValue,false],
+            txn.executeSql(query,[title,description,selectedValue,false,false],
                 (sqltxn,res)=>{
-                    //console.log(`added ${JSON.stringify(res)}`);
                     getNotes();
         
                 },(error)=>{
@@ -55,9 +54,9 @@ const Addnotes=({notesList,setNotesList,getNotes})=>{
             <TextInput label="Title" style={styles.input} placeholder="Title" value={title} onChangeText={setTitle} ></TextInput>
             <TextInput multiline={true} style={{...styles.input,height:200,overflow:"scroll"}} placeholder="Description" value={description} onChangeText={setDescription} ></TextInput>
             <View>
-            <Text style={{marginVertical:20,...styles.content}}>Select an option:</Text>
+            <Text style={{marginVertical:20,...styles.content}}>Select Priority:</Text>
             <Picker
-             style={{height:"200",width:"100",}}
+             style={{height:"200",width:"100",borderWidth: 3}}
                 selectedValue={selectedValue}
                 onValueChange={(itemValue, itemIndex) => setSelectedValue(itemValue)}
             >
@@ -68,19 +67,8 @@ const Addnotes=({notesList,setNotesList,getNotes})=>{
     </View>
 
 
-    
-
-
-
-
-
-
-
-
-
-
             </View>
-            <Button title="ADD" onPress={addNote} />
+            <Button style={styles.button} title="ADD" onPress={addNote} />
 
 
             
@@ -122,12 +110,19 @@ const styles=StyleSheet.create({
     input:{
         fontSize: 20, // Adjust the font size as needed
         height: 50,   // Adjust the height as needed
-        borderColor: 'gray',
-        borderWidth: 1,
+        borderColor: '#03045e',
+        borderWidth: 3,
         paddingHorizontal: 10,
         marginVertical:20,
         borderRadius:30,
 
+    },
+    button:{
+        borderColor:"#03045e",
+        backgroundColor:"03045e",
+    },
+    buttonText:{
+        color:"white"
     }
     
     
