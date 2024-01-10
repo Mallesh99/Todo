@@ -1,79 +1,60 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+Hello there..!
 
-# Getting Started
+**Project Name** : TODO APPLICATION
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+I built this Simple To-Do List Application using React-native and SQLite.
 
-## Step 1: Start the Metro Server
+Developed a fully functional to-do list application that allows users to manage their tasks effectively. The app is intuitive and user-friendly. 
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+ 
 
-To start Metro, run the following command from the _root_ of your React Native project:
+**Key Features** : 
 
-```bash
-# using npm
-npm start
+Priority Levels: Assigned priority to tasks as Low, Medium, or High. 
 
-# OR using Yarn
-yarn start
-```
+Category: Can categorize tasks. 
 
-## Step 2: Start your Application
+Task Status: Can Mark tasks as New, In Progress, or Completed. 
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+Title and Description: Each task must have a title and a detailed description. 
 
-### For Android
+Local Storage: The app uses local storage to save tasks i.e I used SQLite
 
-```bash
-# using npm
-npm run android
+**Description** :
 
-# OR using Yarn
-yarn android
-```
+1) Basically, when app is opened we can see three divisions. They are:
+   Add_task
+   On going
+   Completed
+2) We can add new tasks by clicking on the Add_Task tab.
+3) While adding new task title and description for the task is compulsory.
+4) While adding new task we should decide the priority to the task that we are adding. Then Click Add button on the bottom.
+5) I denoted low priority task with green colour. I denoted medium priority with orange colour. I denoted high priority with red colour.
+6) After adding, the added task is being showed in the on going tab. Until we view the added task it is marked as new, which can be seen on the right side of the task. Once we open it will be gone.
+7) In on going tab, we can view the task by clicking on it.
+8) We can see title,description and 3 buttons there. They are Back, Mark as Complete and Delete.
+9) We can mark the task as complete by clicking the "Mark as Complete" button. Then the task is moved to the completed tab.
+10) We can even delete the task using the "Delete" button.
+11) If we click on the task which is in completed tab we cannot see option of deleting and marking as completion.Only Back button can be seen.
 
-### For iOS
 
-```bash
-# using npm
-npm run ios
+**Instructions to Setup and run the Application** :
 
-# OR using Yarn
-yarn ios
-```
+1) Git clone the repository using the link which I will send on email.
+2) Open vs code in that cloned directory.
+3) Run command "npm i" to install all required dependencies. (P.S: Please install manually one or two if there are any errors because of versions)
+4) "npm start" in that terminal.
+5) Open another terminal and run the command "npm run android". (P.S: I believe you guys had setup Android SDK to run the Android App)
+6) If you come across any problem please contact me. Thank You...!
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+**Screenshots** :
 
-## Step 3: Modifying your App
+![on_going_tasks](https://github.com/Mallesh99/Todo/assets/84665724/9e6d5310-dec7-4cc1-9373-467054ce48a0)
 
-Now that you have successfully run the app, let's modify it.
+![completed_tasks](https://github.com/Mallesh99/Todo/assets/84665724/81a69fca-207e-4043-ac35-c0eaa3206a52)
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+![add_notes_screen](https://github.com/Mallesh99/Todo/assets/84665724/95f76f47-fe21-4c42-a6c0-633a3ddf972b)
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+![title_with_description](https://github.com/Mallesh99/Todo/assets/84665724/8ac6e2e4-d8e6-435f-a0b4-7d2195ca356e)
 
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
