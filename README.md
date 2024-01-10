@@ -51,7 +51,10 @@ Local Storage: The app uses local storage to save tasks i.e I used SQLite
 **Screenshots** :
 
 ![on_going_tasks](https://github.com/Mallesh99/Todo/assets/84665724/9e6d5310-dec7-4cc1-9373-467054ce48a0)
+
 ![completed_tasks](https://github.com/Mallesh99/Todo/assets/84665724/81a69fca-207e-4043-ac35-c0eaa3206a52)
+
 ![add_notes_screen](https://github.com/Mallesh99/Todo/assets/84665724/95f76f47-fe21-4c42-a6c0-633a3ddf972b)
+
 ![title_with_description](https://github.com/Mallesh99/Todo/assets/84665724/8ac6e2e4-d8e6-435f-a0b4-7d2195ca356e)
 
