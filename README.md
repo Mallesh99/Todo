@@ -2,7 +2,7 @@ Hello there..!
 
 **Project Name** : TODO APPLICATION
 
-I built this Simple To-Do List Application using React-native.
+I built this Simple To-Do List Application using React-native and SQLite.
 
 Developed a fully functional to-do list application that allows users to manage their tasks effectively. The app is intuitive and user-friendly. 
 
@@ -18,7 +18,7 @@ Task Status: Can Mark tasks as New, In Progress, or Completed.
 
 Title and Description: Each task must have a title and a detailed description. 
 
-Local Storage: The app uses local storage to save tasks i.e I used SQLLite
+Local Storage: The app uses local storage to save tasks i.e I used SQLite
 
 **Description** :
 
@@ -45,4 +45,13 @@ Local Storage: The app uses local storage to save tasks i.e I used SQLLite
 3) Run command "npm i" to install all required dependencies. (P.S: Please install manually one or two if there are any errors because of versions)
 4) "npm start" in that terminal.
 5) Open another terminal and run the command "npm run android". (P.S: I believe you guys had setup Android SDK to run the Android App)
-6) If you come across any problem please contact me. Thank You...! 
+6) If you come across any problem please contact me. Thank You...!
+
+
+**Screenshots** :
+
+![on_going_tasks](https://github.com/Mallesh99/Todo/assets/84665724/9e6d5310-dec7-4cc1-9373-467054ce48a0)
+![completed_tasks](https://github.com/Mallesh99/Todo/assets/84665724/81a69fca-207e-4043-ac35-c0eaa3206a52)
+![add_notes_screen](https://github.com/Mallesh99/Todo/assets/84665724/95f76f47-fe21-4c42-a6c0-633a3ddf972b)
+![title_with_description](https://github.com/Mallesh99/Todo/assets/84665724/8ac6e2e4-d8e6-435f-a0b4-7d2195ca356e)
+
